@@ -454,12 +454,12 @@ public class GNSSView extends View {
         }
     };
 }
+
 //📊 Resumo geral
 //Requisito	Situação	Observações
-
 //Componente customizado	✅	Extende View
 //Projeção da esfera celeste	✅	Projeção polar correta
-  //Topo = Norte	✅	Azimute 0° no topo
+//Topo = Norte	✅	Azimute 0° no topo
 //Atualiza no GNSS	✅	Método updateSatellites() com invalidate()
 //Identificação visual	✅	Cor, texto e bandeira
 //Contagem de satélites	✅	Texto superior com visíveis e usados
