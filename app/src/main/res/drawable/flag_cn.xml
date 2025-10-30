@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Fundo vermelho -->
+    <path android:fillColor="#DE2910" android:pathData="M0,0h64v64h-64z" />
+
+    <!-- Estrela grande amarela (canto superior esquerdo) -->
+    <path android:fillColor="#FFDE00" android:pathData="M10,10l4,12h12l-10,7 4,12-10-7-10,7 4-12-10-7h12z" />
+</vector>

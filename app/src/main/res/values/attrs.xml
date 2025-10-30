@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GNSSView">
+        <attr name="showNonFixSatellites" format="boolean" />
+        <attr name="colorUsedSatellites" format="color" />
+
+        <!-- Outros atributos que seu componente customizado use -->
+    </declare-styleable>
+</resources>
+

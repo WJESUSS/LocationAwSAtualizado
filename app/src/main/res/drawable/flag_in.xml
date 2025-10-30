@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Faixa superior (laranja) -->
+    <path android:fillColor="#FF9933" android:pathData="M0,0h64v21.33h-64z" />
+    <!-- Faixa do meio (branca) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M0,21.33h64v21.34h-64z" />
+    <!-- Faixa inferior (verde) -->
+    <path android:fillColor="#138808" android:pathData="M0,42.67h64v21.33h-64z" />
+
+    <!-- Roda azul (chakra) no centro -->
+    <path android:fillColor="#000088" android:pathData="M32,32m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0" />
+    <!-- Linhas da chakra (simplificado) -->
+    <path android:strokeColor="#000088" android:strokeWidth="1"
+        android:pathData="M32,22 L32,42 M22,32 L42,32 M25,25 L39,39 M39,25 L25,39" />
+</vector>

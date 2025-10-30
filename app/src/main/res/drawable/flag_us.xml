@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Fundo branco -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h64v64h-64z" />
+
+    <!-- Faixas vermelhas -->
+    <path android:fillColor="#B22234" android:pathData="M0,0h64v8h-64z" />
+    <path android:fillColor="#B22234" android:pathData="M0,16h64v8h-64z" />
+    <path android:fillColor="#B22234" android:pathData="M0,32h64v8h-64z" />
+    <path android:fillColor="#B22234" android:pathData="M0,48h64v8h-64z" />
+
+    <!-- Retângulo azul (canto) -->
+    <path android:fillColor="#3C3B6E" android:pathData="M0,0h28v28h-28z" />
+
+    <!-- Estrela (simples) -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M6,4l2,6h6l-5,4l2,6l-5,-4l-5,4l2,-6l-5,-4h6z" />
+</vector>

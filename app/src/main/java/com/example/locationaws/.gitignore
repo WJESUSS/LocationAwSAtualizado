@@ -1,0 +1,56 @@
+# ========================================
+# 📱 ANDROID STUDIO / GRADLE / JAVA
+# ========================================
+
+# Build e intermediários
+/build/
+app/build/
+*/build/
+
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Configurações locais
+local.properties
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Cache do Android Studio
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/.name
+
+# Configuração específica do usuário
+.idea
+*.iml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Saída de compilação
+bin/
+gen/
+out/
+
+# Chaves e credenciais (certificados, keystores, etc.)
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+
+# Arquivos de APK/Bundle gerados
+*.apk
+*.ap_
+*.aab

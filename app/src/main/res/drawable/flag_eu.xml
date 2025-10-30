@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Fundo azul -->
+    <path android:fillColor="#003399" android:pathData="M0,0h64v64h-64z" />
+
+    <!-- Estrelas amarelas -->
+    <!-- Aqui uma estrela simples centralizada (ideal seria desenhar 12 estrelas no círculo, mas para simplicidade, só uma) -->
+    <path
+        android:fillColor="#FFCC00"
+        android:pathData="M32,14l3,9h9l-7,5 3,9-7-5-7,5 3-9-7-5h9z" />
+</vector>
